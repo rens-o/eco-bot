@@ -115,7 +115,7 @@ function wordGuess(interaction) {
 }
 
 function callRandomWork(interaction) {
-    var random = Math.floor(Math.random()*3);
+    const random = Math.floor(Math.random()*3);
     switch(random){
         case 0:
             repeat(interaction);
